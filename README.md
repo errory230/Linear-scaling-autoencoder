@@ -7,7 +7,6 @@ This agoritm ~ descpriton
 	numpy==1.21.6
 	sklearn==1.0.2
 	matplotlib
-  ```
 
 ## Installation
 `pip install node2vec`
