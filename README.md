@@ -34,3 +34,8 @@ python train.py --data data/ftir.csv --tolerance 3 --plot_loss True --vis_latent
     10. `plot_loss`: loss plot (default: False)
     11. `vis_latent`: visualize latent vector (default: Fasle)
     12. `vis_prediction`: visualize prediction (default: False)
+
+## License ##
+
+## Contact ##
+Sangyeon Lee - lsy5518@kaist.ac.kr
