@@ -9,7 +9,7 @@ This agoritm ~ descpriton
 	matplotlib
 
 ## Installation
-`pip install node2vec`
+`pip install lae`
 
 ## Usage ##
 
@@ -17,6 +17,7 @@ This agoritm ~ descpriton
 import train;
 train.run(data='data/ftir.csv', tolerance=3, plot_loss=True, vis_latent=True, vis_prediction=True)
 python train.py --data data/ftir.csv --tolerance 3 --plot_loss True --vis_latent True --vis_prediction True1
+```
 
 ### Parameters
 - `lae` constructor:
