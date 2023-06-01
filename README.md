@@ -13,6 +13,7 @@ This agoritm ~ descpriton
 `pip install node2vec`
 
 ## Usage ##
+
 ```python
 import train;
 train.run(data='data/ftir.csv', tolerance=3, plot_loss=True, vis_latent=True, vis_prediction=True)
