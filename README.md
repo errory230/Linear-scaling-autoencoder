@@ -15,9 +15,14 @@ This agoritm ~ descpriton
 
 ```python
 import train;
-train.run(data='data/ftir.csv', tolerance=3, plot_loss=True, vis_latent=True, vis_prediction=True)
+train.run(data='data/', tolerance=3, plot_loss=True, vis_latent=True, vis_prediction=True)
 python train.py --data data/ftir.csv --tolerance 3 --plot_loss True --vis_latent True --vis_prediction True1
 ```
+## Input Data structure
+
+The input format should be the path to the folder containing the files.(e.g., data=/data/ex)
+Each file should be named in the format '[glucose concentration]-[order]_1' (e.g., 1ng-1_1, 100ng-4_1)._
+Each file contains a total of 2 columns, where the first column represents the wavelength and the second column contains the corresponding values.
 
 ### Parameters
 - `lae` constructor:
