@@ -1,5 +1,7 @@
 # LAE
-This agoritm ~ descpriton
+This code implements an algorithm that predicts blood glucose levels by analyzing the intensity of different wavelengths using Raman spectroscopy. 
+It trains a linearization autoencoder (LAE) model on a custom dataset and calculates various loss functions to optimize the model. 
+The code also includes options for visualizing the latent space and predictions, as well as plotting the training loss over iterations.
 
 ## Requirement ##
 
