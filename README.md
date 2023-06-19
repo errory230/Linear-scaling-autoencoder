@@ -4,10 +4,10 @@ It trains a linearization autoencoder (LAE) model on a custom dataset and calcul
 The code also includes options for visualizing the latent space and predictions, as well as plotting the training loss over iterations.
 
 ## Requirement ##
-We recommend to make new conda envrionment.
-`conda create --name lae --file requirements.txt`
+We recommend to make new conda envrionment. 
+`conda create --name lae --file requirements.txt` 
 
-If you want to use package without making new environment,
+If you want to use package without making new environment, 
 `conda install --file requirements.txt`
 
 ## Installation
