@@ -32,7 +32,7 @@ from torch.utils.data.dataloader import default_collate
 
 import utils.read_data as rd
 from utils.analysis import test_model
-import utils.signal_merger2 as merger
+import utils.signal_merger as merger
 
 class Dataset():
     def __init__(self, data, phase):
