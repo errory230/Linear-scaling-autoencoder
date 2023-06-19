@@ -4,12 +4,7 @@ It trains a linearization autoencoder (LAE) model on a custom dataset and calcul
 The code also includes options for visualizing the latent space and predictions, as well as plotting the training loss over iterations.
 
 ## Requirement ##
-`conda install --file requirements.txt
-
-	torch==1.11.0+cu113
-	numpy==1.21.6
-	sklearn==1.0.2
-	matplotlib
+`conda install --file requirements.txt`
 
 ## Installation
 `pip install lae`
