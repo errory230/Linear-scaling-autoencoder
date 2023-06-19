@@ -39,6 +39,7 @@ python train.py --data data/ex --tolerance 3 --plot_loss True --vis_latent True 
     12. `vis_prediction`: visualize prediction (default: False)
 
 ## License ##
+Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## Contact ##
 Sangyeon Lee - lsy5518@kaist.ac.kr
