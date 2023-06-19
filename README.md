@@ -4,6 +4,7 @@ It trains a linearization autoencoder (LAE) model on a custom dataset and calcul
 The code also includes options for visualizing the latent space and predictions, as well as plotting the training loss over iterations.
 
 ## Requirement ##
+`conda install --file requirements.txt
 
 	torch==1.11.0+cu113
 	numpy==1.21.6
@@ -17,7 +18,7 @@ The code also includes options for visualizing the latent space and predictions,
 
 ```python
 import train;
-train.run(data='data/', tolerance=3, plot_loss=True, vis_latent=True, vis_prediction=True)
+train.run(data='data/ex', tolerance=3, plot_loss=True, vis_latent=True, vis_prediction=True)
 python train.py --data data/ftir.csv --tolerance 3 --plot_loss True --vis_latent True --vis_prediction True1
 ```
 ### Input data structure
