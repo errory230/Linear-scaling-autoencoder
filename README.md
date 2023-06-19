@@ -5,9 +5,11 @@ The code also includes options for visualizing the latent space and predictions,
 
 ## Requirement ##
 We recommend to make new conda envrionment. 
+
 `conda create --name lae --file requirements.txt` 
 
 If you want to use package without making new environment, 
+
 `conda install --file requirements.txt`
 
 ## Installation
