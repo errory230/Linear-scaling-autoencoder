@@ -14,7 +14,7 @@ The code also includes options for visualizing the latent space and predictions,
 ```python
 import train;
 train.run(data='data/ex', tolerance=3, plot_loss=True, vis_latent=True, vis_prediction=True)
-python train.py --data data/ftir.csv --tolerance 3 --plot_loss True --vis_latent True --vis_prediction True1
+python train.py --data data/ex --tolerance 3 --plot_loss True --vis_latent True --vis_prediction True1
 ```
 ### Input data structure
 
