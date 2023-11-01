@@ -29,7 +29,7 @@ python train.py --data data/ex --tolerance 3 --plot_loss True --vis_latent True 
 - Each file contains 2 columns, where the first column represents the wavelength and the second column contains the corresponding values.  
 
 ### Parameters
-- `lae` constructor:
+- `lse` constructor:
     1. `data`: data location
     2. `batch size`: batch size (default: 32)
     3. `device`: device (default: 0)
