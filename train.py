@@ -35,6 +35,10 @@ from utils.analysis import test_model
 import utils.signal_merger as merger
 
 class Dataset():
+    '''
+    X - signal vectors
+    y - external variable
+    '''
     def __init__(self, data, phase):
         merger.signal_merger(data)
         self.X, self.y = rd.getData(os.path.join(Path(data).parents[0],str(Path(data).name)+'_merge_data.csv'), phase)
@@ -49,6 +53,7 @@ class Dataset():
 
 # Build a model
 class LAE(torch.nn.Module):
+    # LAE - Linear scaling autoencoder
     def __init__(self, input_dimension, layerinfo):
         super().__init__()
         layers = [input_dimension] + layerinfo
