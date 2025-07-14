@@ -1,5 +1,5 @@
 '''
-Analysis of trained LAE with test data
+Analysis of trained linear scaling autoencoder with test data
 '''
 
 import torch
@@ -56,7 +56,10 @@ def vis_prediction(X, y):
     return r2
 
 def test_model(modelname, opt):
-    model = torch.load('result/'+modelname)
+    '''
+    Load trained model 
+    ex) model = torch.load('PATH TO MODEL WEIGHT')
+    '''
     model.to(opt.device)
     model.eval()
     x_tensor =[]
