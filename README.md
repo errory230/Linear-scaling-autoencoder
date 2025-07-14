@@ -11,6 +11,7 @@ We recommend to make new conda envrionment.
 If you want to use package without making new environment, 
 
 `conda install --file requirements.txt`
+
 It's also a good approach to consider running codes in environments like Colab instead of setting up a local environment.
 
 ## Installation
