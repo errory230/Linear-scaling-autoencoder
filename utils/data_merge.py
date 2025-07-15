@@ -1,5 +1,5 @@
 """
-Module Name: signal_merger
+Module Name: data_merge
 
 Description:
 To merge multiple data files in the data directory, into a single CSV file.
