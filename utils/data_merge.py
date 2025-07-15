@@ -2,8 +2,9 @@
 Module Name: signal_merger
 
 Description:
-Merge signal files to csv file
-
+To merge multiple data files in the data directory, into a single CSV file.
+Each data file contains intensities obtained from an individual sample, 
+along with the concentration value of the target substance for that sample (in column 0).
 """
 
 import os
