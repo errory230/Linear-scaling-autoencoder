@@ -1,3 +1,11 @@
+"""
+Module Name: signal_merger
+
+Description:
+Merge signal files to csv file
+
+"""
+
 import os
 import pandas as pd
 from pathlib import Path
